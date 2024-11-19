@@ -1,0 +1,117 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "11-12-2024",
+            "dia": "lunes",
+            "url": "http://www.cubadebate.cu/noticias/2023/12/11/une-preven-afectacion-de-300-mw-durante-el-horario-pico-nocturno-de-este-lunes/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2550,
+            "demanda_max": 2780,
+            "deficit": 230,
+            "pronostico": {
+                "afectacion": 300
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2220,
+                "demanda": 2000,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 338,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "CTE Rente"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Felton"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "CTE Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "CTE Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "CTE Cienfuegos"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": [
+            {
+                "razon": "averias ",
+                "cantidad": null,
+                "mw_afectados": 814
+            },
+            {
+                "razon": "matenimineto",
+                "cantidad": null,
+                "mw_afectados": 124
+            }
+        ],
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "patana_de_melones",
+                    "razon": "entrada de 4 motores",
+                    "cantidad_mw": 70
+                },
+                {
+                    "desc": "generacion distribuida",
+                    "razon": "por mantenimiento , a la espera que se autorice su uso",
+                    "cantidad_mw": 125
+                },
+                {
+                    "desc": "CTE Rente",
+                    "razon": "entrad de la unidad 3",
+                    "cantidad_mw": 75
+                },
+                {
+                    "desc": "Energas Boca de Jaruco",
+                    "razon": "entrada de la unidad 4",
+                    "cantidad_mw": 30
+                },
+                {
+                    "desc": "Energas Boca de Jaruco",
+                    "razon": "completamineto del ciclo combinado de esta misma central ",
+                    "cantidad_mw": 30
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 0,
+            "hora": "",
+            "desc": ""
+        },
+        "dia_anterior": {
+            "desc": "",
+            "timpo": 0,
+            "hora_rest": ""
+        }
+    }
+}

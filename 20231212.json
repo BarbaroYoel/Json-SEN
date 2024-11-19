@@ -1,0 +1,98 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "12-12-2024",
+            "dia": "martes",
+            "url": "http://www.cubadebate.cu/noticias/2023/12/12/une-se-pronostica-una-afectacion-de-385-mw-en-el-horario-pico/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad":2465,
+            "demanda_max": 2780,
+            "deficit": 315,
+            "pronostico": {
+                "afectacion": 385
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2300,
+                "demanda": 2000,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 350,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "CTE Rente"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Felton"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "CTE Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "CTE Mariel"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": [
+            {
+                "razon": "averias ",
+                "cantidad": null,
+                "mw_afectados": 827
+            },
+            {
+                "razon": "matenimineto",
+                "cantidad": null,
+                "mw_afectados": 129
+            }
+        ],
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "patana_de_melones",
+                    "razon": "entrada de 4 motores",
+                    "cantidad_mw": 70
+                },
+                {
+                    "desc": "generacion distribuida",
+                    "razon": "por mantenimiento , a la espera que se autorice su uso",
+                    "cantidad_mw": 95
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 616,
+            "hora": "18:00",
+            "desc": "coincidiendo con la hora pico."
+        },
+        "dia_anterior": {
+            "desc": "En el día de ayer se afectó el servicio en el horario de la mañana por altas trasferencia hacia la zona centro oriental desde las 10:47 hasta las 12:28 horas con un máximo de 108 MW a las 11:50 horas y en el horario de la tarde se afectó el servicio por déficit de capacidad y altas transferencia desde las 15:49 hasta las 20:26 horas.",
+            "timpo": null,
+            "hora_rest": ""
+        }
+    }
+}

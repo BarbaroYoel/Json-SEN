@@ -1,0 +1,112 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "15-12-2024",
+            "dia": "viernes",
+            "url": "http://www.cubadebate.cu/noticias/2023/12/13/une-pronostica-una-afectacion-de-270-mw-para-el-horario-pico/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad":2597,
+            "demanda_max": 2700,
+            "deficit": 103,
+            "pronostico": {
+                "afectacion": 173
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2250,
+                "demanda": 1850,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 291,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "CTE Nuevitas"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Felton"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "CTE Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "CTE Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 3",
+                        "CTE": "CTE Santa Cruz"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": [
+            {
+                "razon": "averias ",
+                "cantidad": null,
+                "mw_afectados": 810
+            },
+            {
+                "razon": "matenimineto",
+                "cantidad": null,
+                "mw_afectados": 117
+            }
+        ],
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "patana_de_melones",
+                    "razon": "entrada de 6 motores",
+                    "cantidad_mw": 100
+                },
+                {
+                    "desc": "generacion distribuida",
+                    "razon": "por mantenimiento , a la espera que se autorice su uso",
+                    "cantidad_mw": 112
+                },
+                {
+                    "desc": "CTE Nuevitas",
+                    "razon": "entrada de la unidad 5",
+                    "cantidad_mw": 75
+                },
+                {
+                    "desc": "CTE Santa Cruz",
+                    "razon": "entrada de la unidad 3",
+                    "cantidad_mw": 60
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 288,
+            "hora": "18:00",
+            "desc": "coincidiendo con la hora pico."
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio en el horario pico por déficit de capacidad de generación",
+            "timpo": 3.34,
+            "hora_rest": "18:53"
+        }
+    }
+}

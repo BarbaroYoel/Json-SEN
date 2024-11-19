@@ -1,0 +1,86 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "16-12-2024",
+            "dia": "sábado",
+            "url": "http://www.cubadebate.cu/noticias/2023/12/13/une-pronostica-una-afectacion-de-270-mw-para-el-horario-pico/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad":2920,
+            "demanda_max": 2680,
+            "deficit": 0,
+            "pronostico": {
+                "afectacion": 0
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2690,
+                "demanda": 1800,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 455,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "CTE Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "CTE Mariel"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": [
+            {
+                "razon": "averias ",
+                "cantidad": null,
+                "mw_afectados": 777
+            },
+            {
+                "razon": "matenimineto",
+                "cantidad": null,
+                "mw_afectados": 108
+            }
+        ],
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "patana_de_melones",
+                    "razon": "entrada de 7 motores",
+                    "cantidad_mw": 120
+                },
+                {
+                    "desc": "generacion distribuida",
+                    "razon": "por mantenimiento , a la espera que se autorice su uso",
+                    "cantidad_mw": 110
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 0,
+            "hora": "",
+            "desc": ""
+        },
+        "dia_anterior": {
+            "desc":"",
+            "timpo": 0,
+            "hora_rest": "La Unión Eléctrica no pronostica afectaciones al servicio por capacidad de generación este sábado"
+        }
+    }
+}

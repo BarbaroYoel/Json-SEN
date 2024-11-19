@@ -1,0 +1,110 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "07-12-2024",
+            "dia": "jueves",
+            "url":"http://www.cubadebate.cu/noticias/2023/12/07/la-union-electrica-estima-una-afectacion-de-315-mw-para-el-horario-pico-nocturno/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2535 ,
+            "demanda_max": 2780 ,
+            "deficit":  245,
+            "pronostico": {
+                "afectacion":  315
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2330,
+                "demanda": 1800,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term":346 ,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 6",
+                        "CTE": "CTE Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "CTE Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "CTE Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Felton"
+                    },
+                    {
+                        "nombre":"Unidad 1",
+                        "Establecimiento":"Energas Varadero"
+                    },
+                    {
+                        "nombre":"Unidad 2",
+                        "Establecimiento":"Energas Varadero"
+                    },
+                    {
+                        "nombre":"Unidad 3",
+                        "Establecimiento":"Energas Varadero"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": [
+            {
+                "razon": "averias ",
+                "cantidad": null,
+                "mw_afectados": 813 
+            },
+            {
+                "razon": "matenimineto",
+                "cantidad": null,
+                "mw_afectados": 125
+            }
+        ],
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "patana_de_melones",
+                    "razon": "entrada de 6 motores",
+                    "cantidad_mw": 90
+                },
+                {
+                    "desc": "generacion distribuida",
+                    "razon": "por mantenimiento , a la espera que se autorice su uso",
+                    "cantidad_mw": 115
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 534,
+            "hora": "18:20",
+            "desc": "coincidiendo con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio por déficit de capacidad de generación en el SEN",
+            "timpo": null,
+            "hora_rest": "19:22"
+        }
+    }
+}

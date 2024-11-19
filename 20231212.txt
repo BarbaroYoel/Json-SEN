@@ -1,0 +1,16 @@
+Titulo:UNE: Se pronostica una afectación de 385 MW en el horario pico
+URL:http://www.cubadebate.cu/noticias/2023/12/12/une-se-pronostica-una-afectacion-de-385-mw-en-el-horario-pico/
+
+En el día de ayer se afectó el servicio en el horario de la mañana por altas trasferencia hacia la zona centro oriental desde las 10:47 hasta las 12:28 horas con un máximo de 108 MW a las 11:50 horas y en el horario de la tarde se afectó el servicio por déficit de capacidad y altas transferencia desde las 15:49 hasta las 20:26 horas.
+
+La máxima afectación en el dia fue de 616 MW, a las 18:00 horas coincidiendo con la hora pico.
+
+La disponibilidad del SEN a las 07:00 horas es de 2300 MW y la demanda 2000 MW, con todo el SEN con servicio. No se estima afectación durante el horario diurno, aunque existe riesgo de afectación al estarse operando el SEN con baja reserva.
+
+Se encuentran fuera de servicio por avería la unidad 1 de la CTE Santa Cruz, la unidad 3 de la CTE Rente y las unidades 1 y 2 de la CTE Felton. Se encuentra en mantenimiento la unidad 5 de la CTE Mariel.
+
+Las limitaciones en la generación térmica: 350 MW. En la generación distribuida, están indisponibles por avería 827 MW y en mantenimiento 129 MW.
+
+Para el pico se estima la entrada de motores de Generación Distribuida que están a la espera de mantenimiento y se autoriza su uso con 95 MW y la entrada de 4 motores en la Patana de Melones con 70 MW.
+
+Con este pronóstico, se estima para la hora pico una disponibilidad de 2465 MW y una demanda máxima de 2780 MW, para un déficit de 315 MW, por lo que de mantenerse las condiciones previstas se pronostica una afectación de 385 MW en este horario.

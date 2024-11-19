@@ -1,0 +1,99 @@
+{
+    "sen_info": {
+        "main_info": {
+            "_comentario": "Las fechas deben expresarse con guiones",
+            "fecha": "04-12-2024",
+            "dia": "lunes",
+            "url": "http://www.cubadebate.cu/noticias/2023/12/04/une-preve-jornada-diurna-sin-afectaciones-por-deficit-y-afectacion-de-144-mw-en-el-pico-este-lunes/"
+        },
+        "_comentario": "Toda esta informacion se expresa en MW",
+        "estimacion": {
+            "horario": "pico",
+            "disponibilidad": 2806,
+            "demanda_max": 2880,
+            "deficit": 74,
+            "pronostico": {
+                "afectacion": 144
+            }
+        },
+        "info_horarios": {
+            "mañana": {
+                "disponibilidad": 2550,
+                "demanda": 2060,
+                "totalidad": true
+            },
+            "mediodia": {
+                "pronostico": {
+                    "afectacion": 0
+                }
+            }
+        },
+        "termoelectricas": {
+            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
+            "lim_gen_term": 366,
+            "fuera": {
+                "averias": [
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Santa Cruz"
+                    },
+                    {
+                        "nombre": "Unidad 2",
+                        "CTE": "CTE Felton"
+                    }
+                ],
+                "mantenimiento": [
+                    {
+                        "nombre": "Unidad 5",
+                        "CTE": "CTE Mariel"
+                    },
+                    {
+                        "nombre": "Unidad 1",
+                        "CTE": "CTE Felton"
+                    }
+                ]
+            }
+        },
+        "centr_gen_distr": [
+            {
+                "razon": "fuera de servicio por combustible ",
+                "cantidad": 27,
+                "mw_afectados": 161
+            },
+            {
+                "razon": "centrales con bajas coberturas",
+                "cantidad": 17,
+                "mw_afectados": 158
+            }
+        ],
+        "pico": {
+            "estimacion": [
+                {
+                    "desc": "generacion distribuida",
+                    "razon": "fuera por combustible",
+                    "cantidad_mw": 40
+                },
+                {
+                    "desc": "patana_de_melones",
+                    "razon": "entrada de 5 motores",
+                    "cantidad_mw": 85
+                },
+                {
+                    "desc": "generacion distribuida",
+                    "razon": "por mantenimiento , a la espera que se autorice su uso",
+                    "cantidad_mw": 131
+                }
+            ]
+        },
+        "max_afect_dia": {
+            "cantidad_mw": 92,
+            "hora": "17:50",
+            "desc": "coincidiendo con la hora pico"
+        },
+        "dia_anterior": {
+            "desc": "se afectó el servicio por déficit de capacidad de generación en el SEN",
+            "timpo": 0.46,
+            "hora_rest": "18:36"
+        }
+    }
+}
