@@ -1,112 +1,45 @@
 {
-    "sen_info": {
-        "main_info": {
-            "_comentario": "Las fechas deben expresarse con guiones",
-            "fecha": "14-12-2024",
-            "dia": "Jueves",
-            "url": "http://www.cubadebate.cu/noticias/2023/12/13/une-pronostica-una-afectacion-de-270-mw-para-el-horario-pico/"
-        },
-        "_comentario": "Toda esta informacion se expresa en MW",
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad":2470,
-            "demanda_max": 2750,
-            "deficit": 280,
-            "pronostico": {
-                "afectacion": 350
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2170,
-                "demanda": 1900,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
-                }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 317,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "CTE Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "CTE Nuevitas"
-                    },
-                    {
-                        "nombre": "Unidad 3",
-                        "CTE": "CTE Rente"
-                    },
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "CTE Felton"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "CTE Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "CTE Mariel"
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": [
-            {
-                "razon": "averias ",
-                "cantidad": 47,
-                "mw_afectados": 356
-            },
-            {
-                "razon": "matenimineto",
-                "cantidad": 17,
-                "mw_afectados": 132
-            }
-        ],
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "patana_de_melones",
-                    "razon": "entrada de 5 motores",
-                    "cantidad_mw": 90
-                },
-                {
-                    "desc": "generacion distribuida",
-                    "razon": "por mantenimiento , a la espera que se autorice su uso",
-                    "cantidad_mw": 110
-                },
-                {
-                    "desc": "CTE Rente",
-                    "razon": "entrada de la unidad 3",
-                    "cantidad_mw": 70
-                },
-                {
-                    "desc": "Energas Boca de Jaruco ",
-                    "razon": "completamiento de la unidad 6 ",
-                    "cantidad_mw": 30
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 335,
-            "hora": "18:00",
-            "desc": "coincidiendo con la hora pico."
-        },
-        "dia_anterior": {
-            "desc": "se afectó el servicio en el horario pico por déficit de capacidad y altas trasferencia hacia la zona centro oriental desde las 16:07 hasta las 19:41",
-            "timpo": 3.34,
-            "hora_rest": "19:41"
-        }
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "20231214",
+    "url":  "http://www.cubadebate.cu/noticias/2023/12/13/une-pronostica-una-afectacion-de-270-mw-para-el-horario-pico/",
+    
+    "prediction": {
+        "availability": "2470",  
+        "demand_max": "2750",
+        "deficit": "280",
+        "impact": "350",
+        "backup": "0"
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": "2170", 
+        "demand": "1900", 
+        "deficit": "0" 
+    }, 
+    "plants":{
+
+    "broken": {
+        "EG":["1"],
+        "DO":["5"],
+        "LR":["1","2"],
+        "AM":["3"]
+    },
+    "maintenance":{
+        "MG":["5"]
+    },
+    "limitation": "317"
+     
+},
+    "distributed": {
+        "motors_with_problems": "64",
+        "total_impact": "488",
+        "combustible_problem": null,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0334",
+        "max": "335",
+        "max_hour": "1800"
     }
 }

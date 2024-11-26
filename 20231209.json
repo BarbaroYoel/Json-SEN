@@ -1,110 +1,45 @@
 {
-    "sen_info": {
-        "main_info": {
-            "_comentario": "Las fechas deben expresarse con guiones",
-            "fecha": "09-12-2024",
-            "dia": "sábado",
-            "url": "http://www.cubadebate.cu/noticias/2023/12/09/union-electrica-no-estima-afectacion-por-deficit-de-generacion-en-el-horario-diurno-este-sabado/"
-        },
-        "_comentario": "Toda esta informacion se expresa en MW",
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2702,
-            "demanda_max": 2680,
-            "deficit": 0,
-            "pronostico": {
-                "afectacion": 48
-            }
-        },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2450,
-                "demanda": 1720,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
-                }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 318,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "CTE Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "CTE Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "CTE Mariel"
-                    },
-                    {
-                        "nombre": "Unidad 3",
-                        "CTE": "CTE Cienfuegos"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "CTE Felton"
-                    },
-                    {
-                        "nombre": "Unidad 1",
-                        "Establecimiento": "Energas Varadero"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "Establecimiento": "Energas Varadero"
-                    },
-                    {
-                        "nombre": "Unidad 3",
-                        "Establecimiento": "Energas Varadero"
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": [
-            {
-                "razon": "averias ",
-                "cantidad": null,
-                "mw_afectados": 815
-            },
-            {
-                "razon": "matenimineto",
-                "cantidad": null,
-                "mw_afectados": 119
-            }
-        ],
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "patana_de_melones",
-                    "razon": "entrada de 8 motores",
-                    "cantidad_mw": 120
-                },
-                {
-                    "desc": "generacion distribuida",
-                    "razon": "por mantenimiento , a la espera que se autorice su uso",
-                    "cantidad_mw": 132
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 0,
-            "hora": "",
-            "desc": ""
-        },
-        "dia_anterior": {
-            "desc": "",
-            "timpo": 0,
-            "hora_rest": ""
-        }
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "20231209",
+    "url":"http://www.cubadebate.cu/noticias/2023/12/09/union-electrica-no-estima-afectacion-por-deficit-de-generacion-en-el-horario-diurno-este-sabado/",
+    
+    "prediction": {
+        "availability": "2702",  
+        "demand_max": "2680",
+        "deficit": "0",
+        "impact": "48",
+        "backup": "22"
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": "2450", 
+        "demand": "1720", 
+        "deficit": "0" 
+    }, 
+    "plants":{
+
+    "broken": {
+        "EG":["1"],
+        "LR":["2"]
+    },
+    "maintenance":{
+        "MG":["5"],
+        "CM":["3"],
+        "EV":["1"]
+    },
+    "limitation": "318"
+     
+},
+    "distributed": {
+        "motors_with_problems": null,
+        "total_impact": "934",
+        "combustible_problem": null,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": null,
+        "max": "0",
+        "max_hour": null
     }
 }

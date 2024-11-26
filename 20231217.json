@@ -1,111 +1,45 @@
 {
-    "sen_info": {
-        "main_info": {
-            "_comentario": "Las fechas deben expresarse con guiones",
-            "fecha": "17-12-2024",
-            "dia": "domingo",
-            "url": "http://www.cubadebate.cu/noticias/2023/12/17/union-electrica-no-estima-afectaciones-en-el-servicio-para-este-domingo/"
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "20231217",
+    "url":  "http://www.cubadebate.cu/noticias/2023/12/17/union-electrica-no-estima-afectaciones-en-el-servicio-para-este-domingo/",
+    "prediction": {
+        "availability": "2822",  
+        "demand_max": "2600",
+        "deficit": "0",
+        "impact": "0",
+        "backup": "222"
+    },
+    "morning_info": {
+        "time": "0700", 
+        "availability": "2497", 
+        "demand": "1630", 
+        "deficit": "0" 
+    }, 
+    "plants":{
+
+    "broken": {
+        "EG":["1"],
+        "DO":["5"],
+        "AM":["3"],
+        "LR":["2"]
         },
-        "_comentario": "Toda esta informacion se expresa en MW",
-        "estimacion": {
-            "horario": "pico",
-            "disponibilidad": 2822,
-            "demanda_max": 2600,
-            "deficit": 0,
-            "pronostico": {
-                "afectacion": 0
-            }
+    "maintenance":{
+        "MG":["5"],
+        "EG":["2"]
         },
-        "info_horarios": {
-            "mañana": {
-                "disponibilidad": 2497,
-                "demanda": 1630,
-                "totalidad": true
-            },
-            "mediodia": {
-                "pronostico": {
-                    "afectacion": 0
-                }
-            }
-        },
-        "termoelectricas": {
-            "_comentario": "Esto quiere decir: Limitaciones en la generacion termica",
-            "lim_gen_term": 333,
-            "fuera": {
-                "averias": [
-                    {
-                        "nombre": "Unidad 1",
-                        "CTE": "CTE Santa Cruz"
-                    },
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "CTE 10 de Octubre"
-                    },
-                    {
-                        "nombre": "Unidad 3",
-                        "CTE": "CTE Rente"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "CTE Felton"
-                    }
-                ],
-                "mantenimiento": [
-                    {
-                        "nombre": "Unidad 5",
-                        "CTE": "CTE Mariel"
-                    },
-                    {
-                        "nombre": "Unidad 2",
-                        "CTE": "CTE Santa Cruz"
-                    }
-                ]
-            }
-        },
-        "centr_gen_distr": [
-            {
-                "razon": "averias ",
-                "cantidad": null,
-                "mw_afectados": 797
-            },
-            {
-                "razon": "matenimineto",
-                "cantidad": null,
-                "mw_afectados": 108
-            }
-        ],
-        "pico": {
-            "estimacion": [
-                {
-                    "desc": "patana_de_melones",
-                    "razon": "entrada de 5 motores",
-                    "cantidad_mw": 90
-                },
-                {
-                    "desc": "generacion distribuida",
-                    "razon": "por mantenimiento , a la espera que se autorice su uso",
-                    "cantidad_mw": 110
-                },
-                {
-                    "desc": "CTE Santa Cruz",
-                    "razon": "entrada de la unidad 2",
-                    "cantidad_mw": 65
-                },               {
-                    "desc": "CTE Rente",
-                    "razon": "entrada de la unidad 3",
-                    "cantidad_mw": 70
-                }
-            ]
-        },
-        "max_afect_dia": {
-            "cantidad_mw": 0,
-            "hora": "",
-            "desc": ""
-        },
-        "dia_anterior": {
-            "desc": "no se afectó el servicio por déficit de capacidad de generación.",
-            "timpo": 0,
-            "hora_rest": ""
-        }
+    "limitation": "333"
+     
+},
+    "distributed": {
+        "motors_with_problems": null,
+        "total_impact": "905",
+        "combustible_problem": null,
+        "snips_with_problems": null,
+        "motors_impact": null
+    },
+    "impact": {
+        "total_hours": "0",
+        "max": "0",
+        "max_hour": "0"
     }
 }
